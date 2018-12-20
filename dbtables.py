@@ -12,7 +12,7 @@ from sqlalchemy.ext.declarative import declarative_base
 import pandas as pd
 from sqlalchemy import create_engine
 
-__all__ = ["sql_config_str", "BasicData", "IndexData", "Industry"]
+__all__ = ["ORMReprMixin", "sql_config_str", "BasicData", "IndexData", "Industry"]
 
 base = declarative_base()
 sql_config_str = "oracle+cx_oracle://zszs:zszs@192.168.101.102:1521/orcl"
